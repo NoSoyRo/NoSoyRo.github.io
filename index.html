@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    
+    <section class = "home">
+        <div class="recta">
+            <h1 class = "titulo">Welcome, My name is Rodrigo and</h1>
+            <h2 class = "recta2"> I'm  <span class="mov"> </span></h2>
+            <script src = "script_words.js"></script>
+            <span id="typed"></span>
+        </div>
+    </section>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <ul class="nav">
+                <ul class="nav">
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class = "introduction">
+        <div class = "title_sub" id = "introduction">
+            Introduction.
+        </div>
+        Throughout this personal website I will expose you several of my personal projects, hence 
+        you will have access to all mi repositories available of each relevant project.
+        
+        I am a Mexican born the 28th of May of 1998, and since I was child I've been 
+        charmed by creative processes such as building legos, thats why now I am very passionate
+        about creating with science.
+
+        Student and graduate of the Faculty of Sciences of the UNAM, in Physics and pure 
+        Mathematics, passionate about the study and not obliged to it. Creator of the 
+        Animathica project. Faithful believer that goals are achieved 99% due to discipline, 
+        passion, creativity, healthy habits and dedication; while 1% is due to genius. 
+        Self-taught young man who is responsible and in constant competition with himself, 
+        as well as an athlete from an early age.
+
+    </section>
+    
+    <section class = "aboutme" id = "aboutme">
+        <div class = "title_sub" id = "aboutme">
+            About me.
+        </div>
+        <div class = "row">
+            <div class="column" style="text-align: center;">
+                <br>
+                Rodrigo is a person with a hunger to eat up the world, that is, 
+                he has big goals and therefore, he has big plans to reach them. On the other hand, 
+                he has lived through very complicated situations but instead of seeing them as 
+                impossible obstacles to overcome, he takes them as inspiration to overcome them, that 
+                is, until now nothing has been able to bring him down. Disciplined person, full of 
+                habits, with values, and principles with which he seeks to improve himself on a daily 
+                basis. 
+                <br>
+                <br>
+                <img src = "imgs/runner.jpg" style="width:200px;height:400;" class="imagen_runner" alt="Me practicing athletism in Iztaccihuatl volcanoe.">
+                <br>
+                Me practicing athletism in Iztaccihuatl volcanoe.
+                <br>
+                <br>
+            </div> 
+        </div>
+    </section>
+    <section class = "projects" id = "projects">
+        <div class = "title_sub" id = "projects">
+            Projects.
+        </div>
+    </section>
+    <section class = "contact" id = "contact">
+        <div class = "title_sub" id = "contact">
+            Contact.
+        </div>
+    </section>
+</body>
+
+
+
+
+
+
+
+
+<canvas id = "canvas1"></canvas>
+<script src = "script_animation.js"></script>
+
+<script>
+    var typed = new Typed(".mov",{
+    strings: ["BSc in Physics.","BSc student in Mathematics.","passionate about programming.","enthusiastic about sports."] ,
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+
+    })
+</script>
+</html>
